@@ -1,0 +1,148 @@
+:root {
+  --primary: #991b1b;       /* Deep Crimson Red */
+  --primary-light: #fef2f2; /* Very pale red for tag hovers */
+  --text-dark: #111827;     /* Near black */
+  --text-main: #374151;     /* Dark grey */
+  --text-light: #6b7280;    /* Muted grey */
+  --border-color: #e5e7eb;  /* Light grey border */
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--text-main);
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+/* Header Section */
+header {
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 5px;
+}
+
+.social-links {
+  margin-top: 12px;
+}
+
+.social-links a {
+  color: var(--text-light);
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: var(--primary);
+}
+
+/* Section Styling */
+.section {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary); /* Red section titles */
+  margin-bottom: 15px;
+  border-left: 4px solid var(--primary);
+  padding-left: 10px;
+}
+
+/* Grids and Tags */
+.skills-grid, .languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: #f9fafb;
+  color: var(--text-dark);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+}
+
+/* Entry Styling (Experience & Education) */
+.entry {
+  margin-bottom: 25px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.entry-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.entry-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+.entry-org {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #4b5563; /* Slightly lighter than title */
+  display: block;
+}
+
+/* Language Styling */
+.language-tag {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  background: white;
+  padding: 4px 10px;
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Footer */
+.resume-footer {
+  margin-top: 60px;
+  padding: 30px 0;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}

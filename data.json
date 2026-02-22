@@ -1,0 +1,57 @@
+{
+  "name": "Heng Vicheka",
+  "title": "Computer Science Student",
+  "email": "h.h.vicheka@gmail.com",
+  "location": "Phnom Penh, Cambodia",
+  "github": "https://github.com/heng-vicheka",
+  "summary": "Frontend and design enthusiast with a passion for creating intuitive user experiences. Skilled in JavaScript, Node.js, and Express, with a strong foundation in web development principles. Eager to apply my skills in real-world projects and contribute to innovative solutions.",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "React",
+    "SvelteKit",
+    "Express",
+    "HTML",
+    "Handlebars",
+    "Git",
+    "CSS",
+    "TailwindCSS",
+    "C++",
+    "Python",
+    "Java"
+  ],
+  "languages": ["Khmer", "English", "Japanese"],
+  "jobs": [],
+  "projects": [],
+  "education": [
+    {
+      "degree": "BSc in Information Technology Management",
+      "institution": "American University of Phnom Penh",
+      "status": "In Progress",
+      "year": "2022 - 2026"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "Fort Hays State University",
+      "status": "In Progress",
+      "year": "2024 - 2026"
+    }
+  ],
+  "experience": [
+    {
+      "position": "C++ Instructor",
+      "organization": "AUPP ByteBuilder Club",
+      "duration": "August 2025 - Current",
+      "description": "Lead weekly sessions teaching C++ programming to club members. Developed curriculum and hands-on exercises to enhance students' understanding of programming concepts and problem-solving skills."
+    },
+    {
+      "position": "Graphic Designer",
+      "organization": "AUPP Money Matters & Mind Club",
+      "duration": "June 2025 - December 2025",
+      "description": "Created visually appealing graphics and promotional materials for club events and social media. Collaborated with club members to design engaging content that effectively communicated financial literacy topics to the student body."
+    }
+  ],
+  "year": 2026,
+  "lastUpdated": "2026-02-22"
+}

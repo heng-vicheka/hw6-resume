@@ -1,11 +1,14 @@
-{{!-- 
-  FILE: views/partials/footer.handlebars
-  PURPOSE: Reusable footer component
-  TEACHING POINT: Partials are included using {{> partialName}} syntax
---}}
-<footer style="background-color: #f0f0f0; padding: 20px; text-align: center; margin-top: 40px; border-top: 2px solid #333;">
-  <p>&copy; 2026 Handlebars Tutorial</p>
-  <p style="font-size: 0.9em; color: #666;">
-    Built with Express.js and Handlebars
-  </p>
+<footer class="resume-footer">
+  <p>© {{year}} {{name}}</p>
+
+  {{! using if }}
+  {{#if lastUpdated}}
+    <p class="last-updated">Last updated: {{lastUpdated}}</p>
+  {{/if}}
+
+  {{! using unless }}
+  {{#unless lastUpdated}}
+    <p class="last-updated">Current Version (2026)</p>
+  {{/unless}}
+
 </footer>
