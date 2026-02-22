@@ -1,0 +1,11 @@
+<div class="project-card">
+  <h3>{{projectName}}</h3>
+  <p>{{description}}</p>
+  <a href="{{link}}">View Source</a>
+  <div class="tech-stack">
+    {{!-- using each in handlebars --}}
+    {{#each tools}}
+      <small>{{this}}</small>
+    {{/each}}
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<footer class="resume-footer">
+  <p>© {{year}} {{name}}</p>
+
+  {{! using if }}
+  {{#if lastUpdated}}
+    <p class="last-updated">Last updated: {{lastUpdated}}</p>
+  {{/if}}
+
+  {{! using unless }}
+  {{#unless lastUpdated}}
+    <p class="last-updated">Current Version (2026)</p>
+  {{/unless}}
+
+</footer>
